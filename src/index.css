@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.selected{
+  color: green;
+}
+
+.cardatt{
+  height: 230px;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 574px) {
+  .herocardresponsive {
+    min-width: 100%;
+    padding-left: 23px;
+    flex-direction: column-reverse;
+
+  }
+}
